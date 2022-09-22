@@ -1,9 +1,9 @@
+import numpy as arr
+
 def dec_to_binary(n):
     if n>1:
         dec_to_binary(n//2)
     print(n%2,end = "")
-
-
 
 t = int(input())
 if(t>=1 and t<=25):

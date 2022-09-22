@@ -7,11 +7,13 @@ for _ in range(t):
         for _ in range(n):
             name , score = input().split()
             float(score)
-            score_list.append([score,name])
+            if(float(score)>=0.0 and float(score)<=100.0):
+                score_list.append([score,name])
         score_list.sort(reverse=True)
         score_top = score_list[0][0] 
 for _ in range(len(score_list)):
     if(score_top == score_list[_][0]):
         empty_lst.append(score_list[_][1])
 empty_lst.sort()
-print(empty_lst)
+for _ in range(len(empty_lst)):
+    print(empty_lst[_])

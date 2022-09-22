@@ -12,4 +12,6 @@ for _ in range(t):
         score_top = score_list[0][0] 
 for _ in range(len(score_list)):
     if(score_top == score_list[_][0]):
-        empty_lst.append(score_list[])
+        empty_lst.append(score_list[_][1])
+empty_lst.sort()
+print(empty_lst)

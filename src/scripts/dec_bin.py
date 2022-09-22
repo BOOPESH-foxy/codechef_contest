@@ -21,5 +21,4 @@ if(t>=1 and t<=25):
                 print("0",end = "")
             for _ in range(len(bin_lst)):
                 print(bin_lst[_],end = "")
-
         print()

@@ -4,7 +4,7 @@ def dec_to_binary(n):
         dec_to_binary(n//2)
     empty_list.append(n%2)
     return empty_list
-    
+
 t = int(input())
 if(t>=1 and t<=25):
     bin_lst = []

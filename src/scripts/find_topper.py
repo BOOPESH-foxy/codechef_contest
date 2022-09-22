@@ -1,4 +1,5 @@
 t = int(input())
+if
 for _ in range(t):
     n = int(input())
     if (n>=2 and n<=100):
